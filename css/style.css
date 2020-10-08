@@ -1,4 +1,6 @@
 
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 @media screen and (min-width: 800px) {
@@ -261,11 +263,11 @@ img {
 	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	height: 80%;
 	justify-content: center;
 	left: 0;
 	opacity: 0;
-	padding: 80px 20px;
+	padding: 80px 0px;
 	position: absolute;
 	text-align: center;
 	top: 0;
@@ -325,12 +327,13 @@ img {
 }
 
 .filme-nota {
-	margin: 0;
+	margin: 0.8rem;
 	align-items: center;
 	display: flex;
 	font-size: 2em;
 	font-weight: bold;
-	justify-content: left;
+	justify-content: space-between;
+	
 }
 
 .filme-nota i {
